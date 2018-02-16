@@ -13,16 +13,19 @@ var Letter = function (characters) {
 			return ("_");
 		}
 	}
-	this.checksGuess = function(c) {
-		if(userGuess === c) {
+	this.checksGuess = function() {
+		if(userGuess === characters) {
 			this.guessed = true;
-			console.log("true");
-		} else {
-			console.log("false");
-		}
+			// console.log("true");
+		} 
+
+		// else {
+		// 	console.log("false");
+		// }
 	}
 }
 
-var b = new Letter("b");
+// var b = new Letter("b");
+// b.checksGuess();
 
 module.exports = Letter;
