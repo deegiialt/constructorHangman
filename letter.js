@@ -1,6 +1,4 @@
-var words = "spongebob, patrick, mr.krabs, sandy";
-
-var userGuess = process.argv[2];
+// var userGuess = process.argv[2];
 
 
 var Letter = function (characters) {
@@ -14,7 +12,7 @@ var Letter = function (characters) {
 		}
 	}
 	this.checksGuess = function() {
-		if(userGuess === characters) {
+		if(userGuess === characters) {//need to set up userGuess
 			this.guessed = true;
 			// console.log("true");
 		} 
