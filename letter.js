@@ -1,4 +1,4 @@
-// var userGuess = process.argv[2];
+var userGuess = process.argv[2];
 
 
 var Letter = function (characters) {
@@ -15,7 +15,7 @@ var Letter = function (characters) {
 		if(userGuess === characters) {//need to set up userGuess
 			this.guessed = true;
 			// console.log("true");
-		} 
+		}
 
 		// else {
 		// 	console.log("false");
